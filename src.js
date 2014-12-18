@@ -5,7 +5,8 @@
             ico_width: 0,
             ico_height:0,
             ico_right_padding:0,
-            color: '#0'
+            color_top: '#000',
+            color_back:'#eee'
         };
 
     function Plugin( element, options ) {
