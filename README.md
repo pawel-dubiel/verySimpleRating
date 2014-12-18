@@ -1,8 +1,9 @@
 verySimpleRating
 ================
 
-Example:
+javascript
 
+```javascript
 jQuery(document).ready(function(){
    jQuery('.stars_rating_cont').verySimpleRating({
        ico_path: "/icons/star16.png",
@@ -13,4 +14,11 @@ jQuery(document).ready(function(){
        color_back: '#8d8d8d'
    });
 });
+```
 
+
+html
+
+```html
+<div class="stars_rating_cont" data-average="3" style="display: none"></div>
+```
